@@ -1,0 +1,15 @@
+写app.js 
+运行app.js：node app.js
+浏览器访问：http://localhost:8080/rectangle?width=20&height=20
+
+创建test/app.test.js
+
+安装npm i -D mocha chai
+
+执行测试：.\node_modules\.bin\mocha
+或者npm test
+
+app.js不用node运行
+grunt-run 实现Web服务的启动和关闭
+编辑Gruntfile.js
+执行grunt 自动开启服务，发请求并且停止服务
