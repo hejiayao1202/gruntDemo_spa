@@ -1,0 +1,6 @@
+为了规范代码
+npm init -y
+npm i -g grunt-cli
+npm install grunt --save-dev（安装grunt）
+npm i -D grunt-contrib-csslint(在文件夹下要下载的 不是全局的)
+grunt 就会报错
