@@ -1,0 +1,10 @@
+为了规范代码
+npm init -y
+npm i -g grunt-cli
+npm i -D grunt-eslint(在文件夹下要下载的 不是全局的)
+eslint --init 回答问题生成配置文件.esslint.json
+eslint *.js 出现检查效果
+
+然后再添加Gruntfile.js
+npm install grunt --save-dev（安装grunt）
+然后执行grunt
