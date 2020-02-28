@@ -1,0 +1,7 @@
+处理less文件
+项目所在路径
+npm init -y
+npm i -g grunt-cli
+npm i -D grunt grunt-contrib-less(在文件夹下要下载的 不是全局的)
+grunt default
+就看到多了一个dist文件夹，里边是css
