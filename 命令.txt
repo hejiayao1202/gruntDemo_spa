@@ -1,0 +1,30 @@
+修改rectangle.js 添加被测文件util.js
+
+安装grunt：npm install grunt --save-dev
+安装mocha：npm i -D mocha chai
+
+初始化前端测试环境：.\node_modules\.bin\mocha init test
+
+就会出现一个test文件夹，里边有index.html、mocha.css、mocha.js、tests.spec.js 
+
+删除tests.spec.js 
+创建util.test.js
+修改test里的index.html 添加    <script src="../node_modules/chai/chai.js"></script>
+<script src="../util.js"></script>
+把tests.js改成util.test.js
+打开test下的index.html出现测试内容
+（或者终端命令打开项目的index.html 再在:8080后面加/test/index.html）
+
+添加自动化
+安装npm i -D grunt grunt-mocha（但是这样安装有问题）
+可以修改package.json,然后执行npm i安装
+添加"grunt": ">=0.4.5","grunt-mocha": "^0.4.12"（不是最新版本）
+这个安装很慢
+
+添加Gruntfile.js
+grunt执行测试，
+也可以修改package.json
+"scripts": {
+    "test": "grunt"
+  },
+然后执行npm test
