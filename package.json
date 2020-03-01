@@ -18,7 +18,15 @@
   "homepage": "https://github.com/wangding/grunt-demo#readme",
   "devDependencies": {
     "chai": "^4.2.0",
-    "grunt": ">=0.4.5",
-    "mocha": "^7.1.0"
-  }
+    "grunt": "^1.0.1",
+    "mocha": "^7.1.0",
+    "grunt-mocha": "^0.4.12"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "fsevents": "^2.1.2"
+  },
+  "keywords": []
 }
