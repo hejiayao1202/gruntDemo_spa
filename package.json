@@ -1,32 +1,17 @@
 {
-  "name": "grunt-demo",
+  "name": "course13_gruntUglify",
   "version": "1.0.0",
-  "description": "grunt 试炼场",
-  "main": "index.js",
-  "scripts": {
-    "test": "grunt"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wangding/grunt-demo.git"
-  },
-  "author": "wangding",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/wangding/grunt-demo/issues"
-  },
-  "homepage": "https://github.com/wangding/grunt-demo#readme",
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "grunt": "^1.0.1",
-    "mocha": "^7.1.0",
-    "grunt-mocha": "^0.4.12"
-  },
-  "directories": {
-    "test": "test"
-  },
+  "description": "",
+  "main": "Gruntfile.js",
   "dependencies": {
-    "fsevents": "^2.1.2"
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt": "^1.0.4"
   },
-  "keywords": []
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
