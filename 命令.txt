@@ -1,8 +1,9 @@
-rectangle.min.js是手工压缩的
+wget https://sample.wangding.in/spa/images.tar命令里
+直接在浏览器打开https://sample.wangding.in/spa/images.tar，就会下载了,下载下来再解压，然后删掉压缩包
 
-npm i -D grunt（安装grunt）
-npm i -D grunt-contrib-htmlmin
+npm i -D grunt 
+npm i -D grunt-contrib-imagemin
+npm init -y 可以把package.json文件弄出来并且查看
 添加Gruntfile.js
-grunt自动化压缩 生成dist文件夹-index.html
-
-然后把js和css放到dist文件夹里，html就会变正常
+grunt 对图片压缩
+生成dist-images-压缩的图片们
