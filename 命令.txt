@@ -1,14 +1,12 @@
-https://sample.wangding.in/spa/icons.tar
-下载 icons.tar 文件
-解压缩
-
+自定义插件
 npm i -D grunt
-npm i -D grunt-spritesmith
+添加Gruntfile.js 
+执行grunt build
 
-添加Gruntfile.js
-grunt实现子图合并
-生成dist/sprites.css 
-dist/spritesheet.png
-
-在dist里添加index.html引用生成的css（生成的css里边有html应该怎么引用的代码）
-
+在git bash里
+clone https://github.com/wangding/reformat-markdown-table
+在reformat-markdown-table文件夹里创建 test.md 
+在git bash里执行 
+（1）bash
+（2）管道流操作：cat test.md | node bin/reformat-markdown-table-cn
+(reformat-markdown-table-cn会让表格对齐;cat是打印出来对齐的表格)

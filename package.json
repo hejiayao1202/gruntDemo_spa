@@ -1,19 +1,16 @@
 {
-  "name": "course16_gruntSprite",
+  "name": "course17_gruntCustomize",
   "version": "1.0.0",
-  "main": "Gruntfile.js",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
-    "D": "^1.0.0",
     "grunt": "^1.0.4"
   },
-  "devDependencies": {
-    "grunt-spritesmith": "^6.8.0"
-  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }

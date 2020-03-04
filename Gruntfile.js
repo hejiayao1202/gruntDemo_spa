@@ -1,15 +1,6 @@
 module.exports = function (grunt) {
-    grunt.initConfig({
-      sprite: {
-        all: {
-          src: 'icons/*.png',
-          dest: 'dist/spritesheet.png',
-          destCss: 'dist/sprites.css'
-        }
-      }
+    
+    grunt.registerTask('build', ['buld task'],function(){
+        console.log("build task!");
     });
-  
-    grunt.loadNpmTasks('grunt-spritesmith');
-  
-    grunt.registerTask('default', ['sprite']);
-  };
+};
