@@ -1,7 +1,14 @@
+https://sample.wangding.in/spa/icons.tar
+下载 icons.tar 文件
+解压缩
+
 npm i -D grunt
-npm i -D grunt grunt-contrib-concat 
-添加Gruntfile.js对'rectangle.js', 'calc.js'自动打包合并
+npm i -D grunt-spritesmith
 
-也可以在Gruntfile.js照着js的方法对css进行打包合并
+添加Gruntfile.js
+grunt实现子图合并
+生成dist/sprites.css 
+dist/spritesheet.png
 
-生成dist/bundle.js
+在dist里添加index.html引用生成的css（生成的css里边有html应该怎么引用的代码）
+
